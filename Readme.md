@@ -128,9 +128,9 @@ En la tabla 1, se describen las distintas funcionalidades a codificar agrupadas 
 |  | 5.5 | La aplicación deberá permitirle al usuario modificar los presets guardados en los perfiles |
 | Interruptores/ Botones | 6.1 | El sistema contará con 15 botones en cada uno de los dos manuales, donde cada uno representa una nota musical|
 |  | 6.2 | El sistema contará con 8 botones en la pedalera, donde cada uno representa una nota musical|
-|  | 6.2 | El sistema contará con 9 botones, donde cada uno representa un registro|
-|  | 6.3 | El sistema contará con 3 botones, donde cada uno representa una combinación libre|
-|  | 6.3 | El sistema contará con 1 boton, que representa el seteador de combinaciones libres|
+|  | 6.3 | El sistema contará con 9 botones, donde cada uno representa un registro|
+|  | 6.4 | El sistema contará con 3 botones, donde cada uno representa una combinación libre|
+|  | 6.5 | El sistema contará con 1 boton, que representa el seteador de combinaciones libres|
 
 <p align="center"><em>Tabla 1: Requisitos del proyecto</em></p>
 
