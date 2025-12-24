@@ -104,16 +104,16 @@ flowchart TD
     A[NUCLEO-F103RB]
 
     A <-->|I2C| B["1. Módulos expansores
-I/O para
-entradas de teclas o
-tiradores de registros"]
+    I/O para
+    entradas de teclas o
+    tiradores de registros"]
 
     A <-->|I2C| C["2. Módulos expansores
-I/O para salidas de
-LEDs de notas y registros"]
+    I/O para salidas de
+    LEDs de notas y registros"]
 
     A -->|UART| D["3. Módulo
-Bluetooth ESP32"]
+    Bluetooth ESP32"]
 
     A -->|GPIO PWM| E["4. Servo SG90"]
 
