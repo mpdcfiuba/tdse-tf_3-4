@@ -101,23 +101,23 @@ En la figura 4, se presenta el diagrama en bloques de los periféricos utilizado
 
 ```mermaid
 flowchart TD
-    A[NUCLEO-F103RB]
+  A[NUCLEO-F103RB]
 
-    A <-->|I2C| B["1. Módulos expansores
-    I/O para
-    entradas de teclas o
-    tiradores de registros"]
+  A <-->|I2C| B["1. Módulos expansores
+  I/O para
+  entradas de teclas o
+  tiradores de registros"]
 
-    A <-->|I2C| C["2. Módulos expansores
-    I/O para salidas de
-    LEDs de notas y registros"]
+  A <-->|I2C| C["2. Módulos expansores
+  I/O para salidas de
+  LEDs de notas y registros"]
 
-    A -->|UART| D["3. Módulo
-    Bluetooth ESP32"]
+  A -->|UART| D["3. Módulo
+   Bluetooth ESP32"]
 
-    A -->|GPIO PWM| E["4. Servo SG90"]
+  A -->|GPIO PWM| E["4. Servo SG90"]
 
-    A -->|GPIO DIGITAL| F["5. LED ventilador centrífugo"]
+  A -->|GPIO DIGITAL| F["5. LED ventilador centrífugo"]
 ```
 
 <p align="center">
