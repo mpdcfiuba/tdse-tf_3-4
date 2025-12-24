@@ -137,7 +137,7 @@ En la tabla 1, se describen las distintas funcionalidades a codificar agrupadas 
 |  | 1.2 | El sistema permitirá la modificación de presets |
 |  | 1.3 | El sistema permitirá la modificación de función de respuesta al pedal expresivo |
 | Indicadores | 2.1 | El sistema contará con indicadores luminosos para mostrar registros seleccionados |
-|  | 2.2 | El sistema contará con indicadores luminosos para mostrar acoplamientos seleccionados |
+|  | 2.2 | El sistema contará con indicadores luminosos para mostrar acoples seleccionados |
 |  | 2.3 | El sistema contará con indicadores luminosos que marquen preset seleccionado |
 |  | 2.4 | El sistema contará con indicadores luminosos que marquen perfil seleccionado |
 |  | 2.5 | El sistema contará con un indicador luminoso que marque entrada vía Bluetooth |
@@ -168,7 +168,7 @@ Los casos de uso para este tipo de proyecto son tantos como combinaciones de tec
 | Elemento | Definición |
 | :---- | :---- |
 | Disparador | Se quiere ejecutar una nota en el manual I |
-| Precondiciones | El sistema se encuentra encendido, se encuentran dos registros seleccionados del manual I, se encuentra un registro en el manual II, se encuentra activado el acoplamiento II/I |
+| Precondiciones | El sistema se encuentra encendido, se encuentran dos registros seleccionados del manual I, se encuentra un registro en el manual II, se encuentra activado el acople II/I |
 | Flujo principal | El sistema enciende los pines de salida de ambos manuales de la nota presionada |
 
 <p align="center">
@@ -178,8 +178,8 @@ Los casos de uso para este tipo de proyecto son tantos como combinaciones de tec
 | Elemento | Definición|
 | :---- | :---- |
 | Disparador | Se quiere setear una combinación libre |
-| Precondiciones | El sistema se encuentra encendido, se encuentran dos registros seleccionados del manual I, se encuentra un registro en el manual II, se encuentra activado el acoplamiento II/I |
-| Flujo principal | Al presionar el boton de set, el sistema lee el pin de set presionado, pasa a modo config, realiza cambios en las estructuras cfg de cada combinación libre guardando tanto registros como acoplamientos seleccionados al momento de setear (estructura dta) y vuelve al modo exec |
+| Precondiciones | El sistema se encuentra encendido, se encuentran dos registros seleccionados del manual I, se encuentra un registro en el manual II, se encuentra activado el acople II/I |
+| Flujo principal | Al presionar el boton de set, el sistema lee el pin de set presionado, pasa a modo config, realiza cambios en las estructuras cfg de cada combinación libre guardando tanto registros como acoples seleccionados al momento de setear (estructura dta) y vuelve al modo exec |
 
 <p align="center">
   <em>Tabla 3: Caso de uso 2</em>
@@ -189,7 +189,7 @@ Los casos de uso para este tipo de proyecto son tantos como combinaciones de tec
 | :---- | :---- |
 | Disparador | Se quiere seleccionar una combinación libre |
 | Precondiciones | El sistema está encendido, se encuentra seleccionada cualquier combinación de registros y acomplamientos |
-| Flujo principal | Al presionar el botón de la combinación libre, el sistema lee el pin presionado, revisa cual estructura cfg se seleccionó y copia su contenido a la estructura dta, seleccionando de esa manera la combinación de registros y acoplamientos de dicha combinación libre |
+| Flujo principal | Al presionar el botón de la combinación libre, el sistema lee el pin presionado, revisa cual estructura cfg se seleccionó y copia su contenido a la estructura dta, seleccionando de esa manera la combinación de registros y acoples de dicha combinación libre |
 
 <p align="center">
   <em>Tabla 4: Caso de uso 3</em>
