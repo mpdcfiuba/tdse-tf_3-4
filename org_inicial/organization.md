@@ -16,7 +16,7 @@
 
         + más de 8 chips, ver como implementar, maximo 8 i2c por bus (se verá al avanzar el proyecto qué conviene más)
 
-* 3 74HC595 serial/parallel output shift register
+* 4 74HC595 serial/parallel output shift register
 
     * https://www.mercadolibre.com.ar/20-unidades-74hc595-smd-circuitointegrado-lc-74-hc-595-sop16/up/MLAU126355654
 
