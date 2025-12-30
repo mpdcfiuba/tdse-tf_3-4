@@ -1,2 +1,4 @@
-.metadata
 files_do_not_upload/
+
+# Carpeta de workspace, de cambiar a STMCubeIDE
+.metadata
