@@ -173,12 +173,12 @@ En la tabla 1, se describen las distintas funcionalidades a codificar agrupadas 
 |  | 4.4 | El sistema deberá quitar todos los registros y acoples, de ser apretado el botón de anulador general |
 |  | 4.5 | El display de 7 segmentos indicará apertura de la caja expresiva mostrando valores entre 0 y 9 según el ángulo del servo motor |
 |  | 4.6 | El sistema deberá ingresar al modo configuración, al presionar el botón de set |
-| Modo configuración | 5.1 | El sistema volverá al modo exec al soltar el botón de set, salvo que se ingrese al modo Bluetooth previo a soltar dicho botón |
+| Modo configuración | 5.1 | El sistema volverá al modo exec al soltar el botón de set, salvo que se ingrese al modo Bluetooth |
 |  | 5.2 | El sistema permitirá el encendido y apagado del blower desde su botón |
 |  | 5.3 | El sistema contará con 10 perfiles de usuario para guardar presets |
 |  | 5.4 | El sistema permitirá la modificación, en el perfil seleccionado, de un preset particular desde su botón, guardando en éste los registros que se encuentran seleccionados |
 |  | 5.5 | El sistema permitirá el cambio de perfil de usuario desde los botones de secuenciador, ya sea para avanzar o retroceder en la lista |
-|  | 5.6 | El sistema deberá ingresar al modo Bluetooth al ser presionando el botón de anulador |
+|  | 5.6 | El sistema deberá ingresar al modo Bluetooth al ser presionando el botón de anulador y posteriormente soltado el botón de set |
 |  | 5.7 | El display de 7 segmentos indicará el perfil seleccionado, mostrándo valores entre 0 y 9, junto con un punto |
 | Modo Bluetooth | 6.1 | El sistema deberá crear una conexión con el celular, enviar los registros actuales, el perfil actual, el preset actual y los presets de los perfiles |
 |  | 6.2 | El sistema deberá abrir y cerrar las válvlulas de las notas que se envíen en formato MIDI desde el celular, sumado a las notas que se estén presionando desde los manuales y pedalera, teniendo en cuenta los registros y acoples seleccionados |
@@ -187,6 +187,7 @@ En la tabla 1, se describen las distintas funcionalidades a codificar agrupadas 
 |  | 6.5 | El sistema deberá cambiar de perfil, de ser cambiado desde la aplicación |
 |  | 6.6 | El sistema deberá cambiar la función de apertura de la caja expresiva, de ser cambiada desde la aplicación |
 |  | 6.7 | El display de 7 segmentos indicará modo Bluetooth con una U |
+|  | 6.8 | El sistema deberá ingresar al modo configuración al ser presionado el botón de set, saliendo así del modo Bluetooth |
 | Aplicación | 7.1 | La aplicación recibirá, al establecer la conexión, los registros actuales, el perfil actual, el preset actual y los presets de los perfiles |
 |  | 7.2 | La aplicación permitirá mostrar y cambiar los registros seleccionados |
 |  | 7.3 | La aplicación permitirá mostrar y cambiar el perfil seleccionado |
