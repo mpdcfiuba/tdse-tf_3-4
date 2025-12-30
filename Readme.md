@@ -110,32 +110,37 @@ Para realizar el trabajo, se implementarán dos manuales de 2 notas por octava m
 En la figura 4, se presenta el diagrama en bloques de los periféricos utilizados en el proyecto y su tipo de conexión a la placa NUCLEO-F103RB.
 
 ```mermaid
-flowchart TD
+	flowchart TD
 	A[NUCLEO-F103RB]
 	
-	A <-->|I2C| B["Módulos expansores
-	I/O MCP23017 para
-	entradas de teclas,
-	registros y acoples"]
-	
+	A <-->|I2C| B["Módulos
+	expansores
+	I/O MCP23017"]
+
 	A -->|SPI| C["Módulos
 	serie/paralelo
 	74HC59"]
-	
+
 	A <-->|UART| D["Módulo
 	Bluetooth ESP32"]
-	E["Potenciómetro 10 kOhm"] -->|ADC IN| A
-	
+
+	E["Potenciómetro
+  10 kOhm"] -->|ADC IN| A
+
 	A -->|GPIO PWM| F["Servo SG90"]
 	
 	A -->|GPIO DIGITAL| G["LED ventilador
 	centrífugo"]
 	
-	C --> H["LEDs de notas,
+	C -->|Wired| H["LEDs de notas,
 	registros y acoples"]
 	
-	C --> I["Display 7
+	C -->|Wired| I["Display 7
 	segmentos"]
+	
+	J["Botones de
+	notas, registros
+	y acoplamientos"] -->|Wired| B
 ```
 
 <p align="center">
