@@ -45,11 +45,20 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
+    cyclic_executive/src/cyclic_executive.c
+    cyclic_executive/src/logger.c
+    cyclic_executive/src/systick.c
+    cyclic_executive/src/task_actuator_interface.c
+    cyclic_executive/src/task_actuator.c
+    cyclic_executive/src/task_sensor.c
+    cyclic_executive/src/task_system_interface.c
+    cyclic_executive/src/task_system.c
 )
 
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
+    cyclic_executive/inc
 )
 
 # Add project symbols (macros)
