@@ -2,3 +2,6 @@ files_do_not_upload/
 
 # Carpeta de workspace, de cambiar a STMCubeIDE
 .metadata
+
+# Carpeta de debug
+pipe_organ_computer.elf/
