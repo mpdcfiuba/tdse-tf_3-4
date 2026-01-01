@@ -125,7 +125,7 @@ En la figura 4, se presenta el diagrama en bloques de los periféricos utilizado
 	Bluetooth ESP32"]
 
 	E["Potenciómetro
-  10 kOhm"] -->|ADC IN| A
+	10 kOhm"] -->|ADC IN| A
 
 	A -->|GPIO PWM| F["Servo SG90"]
 	
@@ -191,7 +191,7 @@ En la tabla 1, se describen las distintas funcionalidades a codificar agrupadas 
 |  | 6.4 | El sistema deberá cambiar de preset, de ser cambiado desde la aplicación |
 |  | 6.5 | El sistema deberá cambiar de perfil, de ser cambiado desde la aplicación |
 |  | 6.6 | El sistema deberá cambiar la función de apertura de la caja expresiva, de ser cambiada desde la aplicación |
-|  | 6.7 | El display de 7 segmentos indicará modo Bluetooth con una U |
+|  | 6.7 | El display de 7 segmentos indicará modo Bluetooth con una U titilando, hasta haber establecido la conexión, quedando estática |
 |  | 6.8 | El sistema deberá ingresar al modo configuración al ser presionado el botón de set, saliendo así del modo Bluetooth |
 | Aplicación | 7.1 | La aplicación recibirá, al establecer la conexión, los registros actuales, el perfil actual, el preset actual y los presets de los perfiles |
 |  | 7.2 | La aplicación permitirá mostrar y cambiar los registros seleccionados |
